@@ -1,0 +1,21 @@
+{
+    "name": "jegarn/jegarn-php",
+    "type": "library",
+    "description": "Jegarn-PHP is a implementation of jegarn client",
+    "keywords": ["jegarn", "swoole"],
+    "license": "Apache License",
+    "authors": [
+        {
+            "name": "YaoGuai",
+            "email": "newtopstdio@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jegarn\\": "src/"
+        }
+    }
+}
